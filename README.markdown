@@ -1,5 +1,19 @@
 # OmnitureTextLoader
 
+## Version 1.1
+---
+
+## What is it?
+
+Same functionality as v1.0, with a new 476-column wide Loader added.  1.1 depends on the corresponding 1.1 OmnitureDataFileInputFormat library.
+
+See the schemas/schema_v_1_1.pig for example usage.
+
+
+## Version 1.0
+---
+
+
 ## what is it
 An Apache Pig UDF (custom Loader) which allows the reading and parsing of raw Omniture data files (hit_data.tsv).
 
@@ -39,3 +53,5 @@ Here's a small sample script to count the number of hits (not necessarily page v
       ORDER counted BY total DESC;
     
     STORE ordered INTO 'output';
+    
+    
