@@ -1,4 +1,4 @@
-file = File.open("schema.txt", "r")
+file = File.open("schema#{ARGV[0]}.txt", "r")
 
 lines = []
 while (line = file.gets)
